@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from typing import List
 from unet_attention import SpatialTransformer
-class UnetModel(nn.Module):
+class UNetModel(nn.Module):
     def __init__(self, *,
                  in_channels: int,
                  out_channels: int,
